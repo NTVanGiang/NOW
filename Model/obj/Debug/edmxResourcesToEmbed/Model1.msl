@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ToiecTestModelStoreContainer" CdmEntityContainer="ToiecTestEntities">
+    <EntitySetMapping Name="PhanQuyens">
+      <EntityTypeMapping TypeName="ToiecTestModel.PhanQuyen">
+        <MappingFragment StoreEntitySet="PhanQuyen">
+          <ScalarProperty Name="LoaiQuyen" ColumnName="LoaiQuyen" />
+          <ScalarProperty Name="TenQuyen" ColumnName="TenQuyen" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ToiecTestModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Account">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Account">
+        <MappingFragment StoreEntitySet="tb_Account">
+          <ScalarProperty Name="idQuyen" ColumnName="idQuyen" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="birthDay" ColumnName="birthDay" />
+          <ScalarProperty Name="livingPlace" ColumnName="livingPlace" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="fullName" ColumnName="fullName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Answer">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Answer">
+        <MappingFragment StoreEntitySet="tb_Answer">
+          <ScalarProperty Name="Ordering" ColumnName="Ordering" />
+          <ScalarProperty Name="isCorrect" ColumnName="isCorrect" />
+          <ScalarProperty Name="answerContent" ColumnName="answerContent" />
+          <ScalarProperty Name="id_SubQuestion" ColumnName="id_SubQuestion" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Image">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Image">
+        <MappingFragment StoreEntitySet="tb_Image">
+          <ScalarProperty Name="id_SubQuestion" ColumnName="id_SubQuestion" />
+          <ScalarProperty Name="alt" ColumnName="alt" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Level">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Level">
+        <MappingFragment StoreEntitySet="tb_Level">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Ordering" ColumnName="Ordering" />
+          <ScalarProperty Name="levelName" ColumnName="levelName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Part">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Part">
+        <MappingFragment StoreEntitySet="tb_Part">
+          <ScalarProperty Name="Ordering" ColumnName="Ordering" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="id_Skill" ColumnName="id_Skill" />
+          <ScalarProperty Name="partNumber" ColumnName="partNumber" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_QuangCao">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_QuangCao">
+        <MappingFragment StoreEntitySet="tb_QuangCao">
+          <ScalarProperty Name="linkWeb" ColumnName="linkWeb" />
+          <ScalarProperty Name="linkHinhAnh" ColumnName="linkHinhAnh" />
+          <ScalarProperty Name="id_ViTri" ColumnName="id_ViTri" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Question">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Question">
+        <MappingFragment StoreEntitySet="tb_Question">
+          <ScalarProperty Name="id_Part" ColumnName="id_Part" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="contentQuestion" ColumnName="contentQuestion" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="id_Level" ColumnName="id_Level" />
+          <ScalarProperty Name="id_Topic" ColumnName="id_Topic" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Quiz">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Quiz">
+        <MappingFragment StoreEntitySet="tb_Quiz">
+          <ScalarProperty Name="isAdminCreate" ColumnName="isAdminCreate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="scoreListening" ColumnName="scoreListening" />
+          <ScalarProperty Name="scoreRead" ColumnName="scoreRead" />
+          <ScalarProperty Name="FinishTime" ColumnName="FinishTime" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="id_Account" ColumnName="id_Account" />
+          <ScalarProperty Name="totalTime" ColumnName="totalTime" />
+          <ScalarProperty Name="totalQuestion" ColumnName="totalQuestion" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_QuizDetail">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_QuizDetail">
+        <MappingFragment StoreEntitySet="tb_QuizDetail">
+          <ScalarProperty Name="id_AnswerMember" ColumnName="id_AnswerMember" />
+          <ScalarProperty Name="C_order" ColumnName="_order" />
+          <ScalarProperty Name="id_SubQuestion" ColumnName="id_SubQuestion" />
+          <ScalarProperty Name="id_Quiz" ColumnName="id_Quiz" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Skill">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Skill">
+        <MappingFragment StoreEntitySet="tb_Skill">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Ordering" ColumnName="Ordering" />
+          <ScalarProperty Name="skillName" ColumnName="skillName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Sound">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Sound">
+        <MappingFragment StoreEntitySet="tb_Sound">
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_SubQuestion">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_SubQuestion">
+        <MappingFragment StoreEntitySet="tb_SubQuestion">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Desciption" ColumnName="Desciption" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="id_Question" ColumnName="id_Question" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Topic">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_Topic">
+        <MappingFragment StoreEntitySet="tb_Topic">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Ordering" ColumnName="Ordering" />
+          <ScalarProperty Name="topicName" ColumnName="topicName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ViTriQC">
+      <EntityTypeMapping TypeName="ToiecTestModel.tb_ViTriQC">
+        <MappingFragment StoreEntitySet="tb_ViTriQC">
+          <ScalarProperty Name="viTri" ColumnName="viTri" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

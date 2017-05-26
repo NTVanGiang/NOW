@@ -1,0 +1,14 @@
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\RepositoryEntity.dll.config
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\RepositoryEntity.dll
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\RepositoryEntity.pdb
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\EntityFramework.dll
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\Model.dll
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\Repository.dll
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\Model.pdb
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\Repository.pdb
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\EntityFramework.xml
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\obj\Debug\RepositoryEntity.csprojResolveAssemblyReference.cache
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\obj\Debug\RepositoryEntity.dll
+C:\Users\Van Giang\Desktop\WebRepository-master\RepositoryEntity\obj\Debug\RepositoryEntity.pdb
